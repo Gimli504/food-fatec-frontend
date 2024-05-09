@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 30%;
+    width: 100%;
   }
-  .half-width{
-    width: 50%;
-  }
+  

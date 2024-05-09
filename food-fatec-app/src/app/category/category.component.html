@@ -13,8 +13,8 @@
         </mat-form-field>
         <mat-form-field class="full-width">
             <mat-label>Descrição:</mat-label>
-            <input [(ngModel)]='category.descriptionCategory' type="text" matInput name="descriptionCategory" placeholder="Digite a decrição da categoria" required />
+            <input [(ngModel)]="category.descriptionCategory" type="text" matInput name="descriptionCategory" placeholder="Digite a decrição da categoria" required />
         </mat-form-field>
-        <button (click)="saveCategory" mat-raised-button color="primary">Salvar</button>
+        <button (click)="saveCategory()" mat-raised-button color="primary">Salvar</button>
     </div>
 </form>
