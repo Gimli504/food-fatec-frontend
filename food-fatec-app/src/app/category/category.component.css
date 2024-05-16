@@ -1,9 +1,7 @@
 .full-width {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 30%;
-  }
-  .half-width{
-    width: 50%;
-  }
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+}

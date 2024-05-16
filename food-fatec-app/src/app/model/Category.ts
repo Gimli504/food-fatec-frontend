@@ -1,5 +1,5 @@
 export interface Category {
-    idCategory?:any;
-    nameCategory:string;
-    descriptionCategory:string;
+ idCategory?:any;
+ nameCategory:string;
+ descriptionCategory:string;
 }
